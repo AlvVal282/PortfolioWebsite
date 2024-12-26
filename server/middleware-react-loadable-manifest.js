@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST='{"components/Locales.tsx -> utils/locales/en.json":{"id":44888,"files":["static/chunks/4888.609533af1670269b.js"]}}';
