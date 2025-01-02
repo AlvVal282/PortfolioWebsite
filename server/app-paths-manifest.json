@@ -1,17 +1,17 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/api/auth/protected/route": "app/api/auth/protected/route.js",
   "/resume-page/page": "app/resume-page/page.js",
   "/page": "app/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/(auth)/login/page": "app/(auth)/login/page.js",
+  "/api/auth/protected/route": "app/api/auth/protected/route.js",
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
   "/(auth)/forget-pass/page": "app/(auth)/forget-pass/page.js",
-  "/(auth)/verify-code/page": "app/(auth)/verify-code/page.js",
   "/(auth)/register/page": "app/(auth)/register/page.js",
   "/(auth)/check-mail/page": "app/(auth)/check-mail/page.js",
+  "/(auth)/login/page": "app/(auth)/login/page.js",
   "/(auth)/reset-pass/page": "app/(auth)/reset-pass/page.js",
-  "/(dashboard)/imagerecognition/image-page/page": "app/(dashboard)/imagerecognition/image-page/page.js",
-  "/(dashboard)/imagerecognition/about-page/page": "app/(dashboard)/imagerecognition/about-page/page.js",
+  "/(auth)/verify-code/page": "app/(auth)/verify-code/page.js",
   "/(dashboard)/home/page": "app/(dashboard)/home/page.js",
-  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js"
+  "/(dashboard)/imagerecognition/image-page/page": "app/(dashboard)/imagerecognition/image-page/page.js",
+  "/(dashboard)/imagerecognition/about-page/page": "app/(dashboard)/imagerecognition/about-page/page.js"
 }

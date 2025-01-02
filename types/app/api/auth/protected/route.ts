@@ -1,4 +1,4 @@
-// File: /Users/alvarovaldez-duran/Desktop/School/PersonalProjects/PortfolioWebsite/src/app/api/auth/protected/route.ts
+// File: /Users/alvarovaldez-duran/Library/Mobile Documents/com~apple~CloudDocs/Desktop/School/PersonalProjects/PortfolioWebsite/src/app/api/auth/protected/route.ts
 import * as entry from '../../../../../../src/app/api/auth/protected/route.js'
 import type { NextRequest } from 'next/server.js'
 

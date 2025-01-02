@@ -1,4 +1,4 @@
-// File: /Users/alvarovaldez-duran/Desktop/School/PersonalProjects/PortfolioWebsite/src/app/(auth)/register/page.tsx
+// File: /Users/alvarovaldez-duran/Library/Mobile Documents/com~apple~CloudDocs/Desktop/School/PersonalProjects/PortfolioWebsite/src/app/(auth)/register/page.tsx
 import * as entry from '../../../../../src/app/(auth)/register/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
