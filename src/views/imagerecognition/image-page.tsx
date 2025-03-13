@@ -53,6 +53,11 @@ export default function Image() {
           {alert.alertMessage}
         </Alert>
       )}
+
+      <Alert severity="info" sx={{ width: '100%', textAlign: 'center', mb: 2 }}>
+        Currently Not Active
+      </Alert>
+
       <Container component="main" maxWidth="xs">
         <CssBaseline />
         <Box
