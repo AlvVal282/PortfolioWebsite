@@ -41,7 +41,7 @@ export default function ImageRecognition({ onSuccess, onError }: IImageProps) {
   const [analysisResult, setAnalysisResult] = useState<IAnalysisResult | null>(null);
   const [showResult, setShowResult] = useState<boolean>(false);
   const [prevImagePreview, setPrevImagePreview] = useState<string | null>(null);
-  const [isFeatureActive, setIsFeatureActive] = React.useState(false);
+  const [isFeatureActive] = React.useState(false);
 
   const { getRootProps, getInputProps, imagePreview, setImagePreview } = useImageUpload();
 
