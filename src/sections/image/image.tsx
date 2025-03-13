@@ -129,7 +129,7 @@ export default function ImageRecognition({ onSuccess, onError }: IImageProps) {
                   <AnimateButton>
                     <Button
                       disableElevation
-                      disabled={isSubmitting}
+                      disabled={!isFeatureActive | isSubmitting}
                       fullWidth
                       size="large"
                       type="submit"
