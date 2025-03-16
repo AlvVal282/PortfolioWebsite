@@ -38,7 +38,7 @@ export default function HomePage() {
         Alvaro Valdez-Duran
       </Typography>
       <Typography variant="h6" align="center" sx={{ marginBottom: 3 }}>
-        Aspiring Software Engineer | Problem Solver | Lifelong Learner
+        Aspiring Software/Security Engineer | Problem Solver | Lifelong Learner
       </Typography>
 
       <Divider sx={{ marginY: 3 }} />
@@ -48,7 +48,7 @@ export default function HomePage() {
       </Typography>
       <Typography variant="body1" paragraph sx={{ lineHeight: 1.6 }}>
         I’m a Computer Science student at the University of Washington Tacoma, expected to graduate in June 2025. My interests lie in
-        full-stack development, software engineering, and creating innovative solutions for real-world problems. I’m passionate about
+        full-stack development, software engineering, cybersecurity and creating innovative solutions for real-world problems. I’m passionate about
         collaborating with others to bring ideas to life.
       </Typography>
 
@@ -66,7 +66,7 @@ export default function HomePage() {
         }}
       >
         <Typography variant="body2">Languages: Python, C, C#, Java, JavaScript, TypeScript, SQL, R</Typography>
-        <Typography variant="body2">Frameworks & Tools: React, Next.js, Docker, Node.js, LibGDX</Typography>
+        <Typography variant="body2">Frameworks & Tools: React, Next.js, Docker, Node.js, LibGDX, Postman</Typography>
         <Typography variant="body2">Developer Tools: Git, GitHub, VS Code, IntelliJ, PyCharm</Typography>
         <Typography variant="body2">Cloud Platforms: Azure, Render</Typography>
       </Box>
