@@ -15,6 +15,7 @@ export default function ResumePage() {
           height: '100%',
           border: 'none'
         }}
+        
         title="Resume"
       />
     </div>
