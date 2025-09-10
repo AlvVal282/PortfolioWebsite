@@ -31,7 +31,7 @@
     "formik": "^2.4.6",
     "framer-motion": "^11.3.21",
     "lodash": "^4.17.21",
-    "next": "^15.2.2",
+    "next": "^15.5.2",
     "next-auth": "^4.24.11",
     "notistack": "^3.0.1",
     "react": "^18.3.1",
@@ -64,7 +64,7 @@
     "gh-pages": "^6.2.0",
     "immutable": "^4.3.7",
     "prettier": "^3.3.3",
-    "typescript": "5.3.3"
+    "typescript": "^5.9.2"
   },
   "packageManager": "yarn@4.4.1"
 }

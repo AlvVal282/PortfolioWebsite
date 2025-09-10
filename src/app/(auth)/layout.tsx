@@ -1,11 +1,12 @@
-// PROJECT IMPORTS
+'use client';
+
 import GuestGuard from 'utils/route-guard/GuestGuard';
+import { ReactNode, ReactElement } from 'react';
 
-// types
-import { GuardProps } from 'types/auth';
+interface LayoutProps {
+  children: ReactNode;
+}
 
-// ==============================|| DASHBOARD LAYOUT ||============================== //
-
-export default function Layout({ children }: GuardProps) {
-  return <GuestGuard>{children}</GuestGuard>;
+export default function Layout({ children }: LayoutProps): ReactElement {
+  return <GuestGuard>{<>{children}</>}</GuestGuard>;
 }

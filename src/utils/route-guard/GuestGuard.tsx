@@ -1,39 +1,24 @@
 'use client';
 
-import { useEffect } from 'react';
-
-// next
+import { ReactElement, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { useSession } from 'next-auth/react';
 
-// project import
-import Loader from 'components/Loader';
-import { APP_DEFAULT_PATH } from 'config';
+interface GuestGuardProps {
+  children: ReactElement;
+}
 
-// types
-import { GuardProps } from 'types/auth';
-
-// ==============================|| GUEST GUARD ||============================== //
-
-export default function GuestGuard({ children }: GuardProps) {
-  const { data: session, status } = useSession();
+export default function GuestGuard({ children }: GuestGuardProps) {
+  const { status } = useSession();
   const router = useRouter();
 
   useEffect(() => {
-    const fetchData = async () => {
-      const res = await fetch('/api/auth/protected');
-      const json = await res?.json();
-      if (json?.protected) {
-        let redirectPath = APP_DEFAULT_PATH;
-        router.push(redirectPath);
-      }
-    };
-    fetchData();
+    if (status === 'authenticated') {
+      router.push('/dashboard');
+    }
+  }, [status, router]);
 
-    // eslint-disable-next-line
-  }, [session]);
-
-  if (status === 'loading' || session?.user) return <Loader />;
+  if (status === 'loading' || status === 'authenticated') return null;
 
   return children;
 }

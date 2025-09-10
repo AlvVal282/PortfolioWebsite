@@ -1,21 +1,20 @@
 'use client';
 
-import { ReactElement } from 'react';
-
-// next
+import { ReactNode } from 'react';
 import { SessionProvider } from 'next-auth/react';
 
-// project import
+// project imports
 import ThemeCustomization from 'themes';
-
 import Locales from 'components/Locales';
 import ScrollTop from 'components/ScrollTop';
 import Snackbar from 'components/@extended/Snackbar';
 import Notistack from 'components/third-party/Notistack';
 
-// ==============================|| APP - THEME, ROUTER, LOCAL ||============================== //
+interface ProviderWrapperProps {
+  children: ReactNode;
+}
 
-export default function ProviderWrapper({ children }: { children: ReactElement }) {
+export default function ProviderWrapper({ children }: ProviderWrapperProps) {
   return (
     <ThemeCustomization>
       <Locales>
