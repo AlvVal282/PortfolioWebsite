@@ -64,7 +64,7 @@
     "gh-pages": "^6.2.0",
     "immutable": "^4.3.7",
     "prettier": "^3.3.3",
-    "typescript": "5.3.3"
+    "typescript": "^5.9.2"
   },
   "packageManager": "yarn@4.4.1"
 }

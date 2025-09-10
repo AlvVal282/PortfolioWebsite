@@ -1,6 +1,6 @@
 'use client';
 
-import { ReactElement } from 'react';
+import { ReactNode } from 'react';
 
 // next
 import { SessionProvider } from 'next-auth/react';
@@ -15,7 +15,11 @@ import Notistack from 'components/third-party/Notistack';
 
 // ==============================|| APP - THEME, ROUTER, LOCAL ||============================== //
 
-export default function ProviderWrapper({ children }: { children: ReactElement }) {
+interface ProviderWrapperProps {
+  children: ReactNode;
+}
+
+export default function ProviderWrapper({ children }: ProviderWrapperProps) {
   return (
     <ThemeCustomization>
       <Locales>
