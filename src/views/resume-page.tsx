@@ -9,7 +9,7 @@ export default function ResumePage() {
   return (
     <div style={{ height: '100vh' }}>
       <iframe
-        src="/Resume.pdf"
+        src="/InternResume.pdf"
         style={{
           width: '100%',
           height: '100%',
