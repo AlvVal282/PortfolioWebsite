@@ -41,8 +41,8 @@ export default function ImageRecognition({ onSuccess, onError }: IImageProps) {
   const [analysisResult, setAnalysisResult] = useState<IAnalysisResult | null>(null);
   const [showResult, setShowResult] = useState<boolean>(false);
   const [prevImagePreview, setPrevImagePreview] = useState<string | null>(null);
-  const [isFeatureActive] = React.useState(false);
-  
+  const [isFeatureActive, setIsFeatureActive] = React.useState(false);
+
   const { getRootProps, getInputProps, imagePreview, setImagePreview } = useImageUpload();
 
   return (
@@ -127,17 +127,17 @@ export default function ImageRecognition({ onSuccess, onError }: IImageProps) {
 
                 <Grid item xs={12}>
                   <AnimateButton>
-                    <Button
-                      disableElevation
-                      disabled={!isFeatureActive || isSubmitting}
-                      fullWidth
-                      size="large"
-                      type="submit"
-                      variant="contained"
-                      color="primary"
-                    >
-                      ANALYZE
-                    </Button>
+                  <Button
+                    disableElevation
+                    disabled={!isFeatureActive || isSubmitting} // Disables when feature is inactive or submitting
+                    fullWidth
+                    size="large"
+                    type="submit"
+                    variant="contained"
+                    color="primary"
+                  >
+                    ANALYZE
+                  </Button>
                   </AnimateButton>
                 </Grid>
               </Grid>
