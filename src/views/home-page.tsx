@@ -38,7 +38,7 @@ export default function HomePage() {
         Alvaro Valdez-Duran
       </Typography>
       <Typography variant="h6" align="center" sx={{ marginBottom: 3 }}>
-        Aspiring SOC Analyst | Cybersecurity Enthusiast | Threat Detection & Response
+      B.S. Computer Science – UW Tacoma | Aspiring SOC Analyst → Future Security Engineer
       </Typography>
 
       <Divider sx={{ marginY: 3 }} />
@@ -47,10 +47,10 @@ export default function HomePage() {
         About Me
       </Typography>
       <Typography variant="body1" paragraph sx={{ lineHeight: 1.6 }}>
-        I’m a Computer Science graduate from University of Washington Tacoma, pursuing a career as a SOC Analyst. 
-        My interests lie in cybersecurity, threat detection, incident response, and security automation. 
-        With a foundation in software engineering and full-stack development, I bring strong technical skills to 
-        analyzing logs, monitoring networks, and building tools that strengthen security operations.
+          I’m a Computer Science graduate from the University of Washington Tacoma, aspiring to become a SOC Analyst and future Security Engineer. 
+          I am passionate about cybersecurity, specializing in threat detection, incident response, and security automation. 
+          With a solid foundation in software engineering and scripting, I leverage technical skills to monitor networks, analyze security logs, 
+          and develop tools that enhance organizational security posture.
       </Typography>
 
       <Divider sx={{ marginY: 3 }} />
@@ -69,7 +69,7 @@ export default function HomePage() {
         <Typography variant="body2">Languages: Python, C, C#, Java, JavaScript, TypeScript, SQL, R</Typography>
         <Typography variant="body2">Frameworks & Tools: React, Next.js, Docker, Node.js, LibGDX, Postman</Typography>
         <Typography variant="body2">Developer Tools: Git, GitHub, VS Code, IntelliJ, PyCharm</Typography>
-        <Typography variant="body2">Cloud Platforms: Azure, Render</Typography>
+        <Typography variant="body2">Cloud Platforms: Azure, Render, AWS</Typography>
       </Box>
 
       <Divider sx={{ marginY: 3 }} />
@@ -79,11 +79,9 @@ export default function HomePage() {
       </Typography>
       <Box sx={{ marginBottom: 2 }}>
         <Typography variant="body1" paragraph>
-          <strong>Evolved Names:</strong> A genetic algorithm written in Java to evolve strings toward a target within 100 generations.
-          Achieved efficient convergence through adaptive parameters.{' '}
-          <Link href="https://github.com/AlvVal282/EvolvedNames" target="_blank">
-            View on GitHub
-          </Link>
+          <strong>Stuxnet Security Analysis:</strong> Conducted an in-depth security analysis of the Stuxnet malware, 
+          examining its propagation, exploitation techniques, and impact on industrial control systems (ICS). 
+          Produced a detailed report summarizing findings, attack vectors, and mitigation strategies.{' '}
         </Typography>
         <Typography variant="body1" paragraph>
           <strong>Dungeon Adventure:</strong> A 2D dungeon exploration game using LibGDX and Java, focusing on player movement, combat
@@ -104,7 +102,6 @@ export default function HomePage() {
           </Link>
         </Typography>
       </Box>
-
       <Divider sx={{ marginY: 3 }} />
 
       <Typography variant="h6" gutterBottom sx={{ fontWeight: 'bold' }}>
