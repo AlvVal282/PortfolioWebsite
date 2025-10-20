@@ -38,7 +38,7 @@ export default function HomePage() {
         Alvaro Valdez-Duran
       </Typography>
       <Typography variant="h6" align="center" sx={{ marginBottom: 3 }}>
-      B.S. Computer Science – UW Tacoma | Aspiring SOC Analyst → Future Security Engineer
+      B.S. Computer Science – UW Tacoma | Future Security Engineer
       </Typography>
 
       <Divider sx={{ marginY: 3 }} />
@@ -47,7 +47,7 @@ export default function HomePage() {
         About Me
       </Typography>
       <Typography variant="body1" paragraph sx={{ lineHeight: 1.6 }}>
-          I’m a Computer Science graduate from the University of Washington Tacoma, aspiring to become a SOC Analyst and future Security Engineer. 
+          I’m a Computer Science graduate from the University of Washington Tacoma, aspiring to become a future Security Engineer. 
           I am passionate about cybersecurity, specializing in threat detection, incident response, and security automation. 
           With a solid foundation in software engineering and scripting, I leverage technical skills to monitor networks, analyze security logs, 
           and develop tools that enhance organizational security posture.
@@ -66,10 +66,21 @@ export default function HomePage() {
           marginBottom: 2
         }}
       >
-        <Typography variant="body2">Languages: Python, C, C#, Java, JavaScript, TypeScript, SQL, R</Typography>
-        <Typography variant="body2">Frameworks & Tools: React, Next.js, Docker, Node.js, LibGDX, Postman</Typography>
-        <Typography variant="body2">Developer Tools: Git, GitHub, VS Code, IntelliJ, PyCharm</Typography>
-        <Typography variant="body2">Cloud Platforms: Azure, Render, AWS</Typography>
+        <Typography variant="body2">
+          Languages: Python, C, C#, Java, JavaScript, TypeScript, SQL, R
+        </Typography>
+        <Typography variant="body2">
+          Frameworks & Tools: React, Next.js, Docker, Node.js, LibGDX, Postman, Kubernetes, MAESTRO
+        </Typography>
+        <Typography variant="body2">
+          Cloud Platforms: Azure, Render, AWS
+        </Typography>
+        <Typography variant="body2">
+          Compliance & Standards: FedRAMP, SOC 2, ISO 27001, Model Context Protocol
+        </Typography>
+        <Typography variant="body2">
+          Developer Tools: Git, GitHub, VS Code, IntelliJ, PyCharm
+        </Typography>
       </Box>
 
       <Divider sx={{ marginY: 3 }} />
